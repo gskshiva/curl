@@ -1,6 +1,8 @@
-# alpine-curl
+# curl
 
 The smallest Docker image with Curl command based on [Alpine Linux](https://hub.docker.com/_/alpine/).
+
+Link to [Docker Hub](https://hub.docker.com/r/shivasg/curl)
 
 ## Usage
 
