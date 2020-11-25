@@ -27,5 +27,5 @@ jobs:
         SOURCE_TAG: ${{ steps.tag_version.outputs.SOURCE_TAG }}
       run: |
         echo $SOURCE_TAG
-        docker build -t shivasg/testapplication:$SOURCE_TAG .
-        docker push shivasg/testapplication:$SOURCE_TAG
+        docker build -t shivasg/curl:$SOURCE_TAG .
+        docker push shivasg/curl:$SOURCE_TAG
